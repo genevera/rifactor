@@ -1,4 +1,5 @@
 # https://github.com/hvr/multi-ghc-travis
+# Test build
 
 env:
  - GHCVER=7.8.4 CABALVER=1.20
