@@ -21,10 +21,10 @@ matrix:
       addons: {apt: {packages: [cabal-install-1.18,ghc-7.8.4], sources: [hvr-ghc]}}
     - env: CABALVER=1.22 GHCVER=7.10.2
       compiler: ": #GHC 7.10.2"
-      addons: {apt: {packages: [cabal-install-1.22,ghc-7.10.2], sources: [hvr-ghc]}
+      addons: {apt: {packages: [cabal-install-1.22,ghc-7.10.2], sources: [hvr-ghc]}}
     - env: CABALVER=HEAD GHCVER=HEAD
-      compiler: ": #GHC 7.10.2"
-      addons: {apt: {packages: [cabal-install-head,ghc-head], sources: [hvr-ghc]}
+      compiler: ": #GHC HEAD"
+      addons: {apt: {packages: [cabal-install-head,ghc-head], sources: [hvr-ghc]}}
 
 before_install:
  - unset CC
