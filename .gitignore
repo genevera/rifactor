@@ -11,3 +11,4 @@ cabal*.config
 config*.json
 dist/
 out/
+.envrc
