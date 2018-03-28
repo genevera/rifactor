@@ -35,6 +35,6 @@ $(makeLenses ''Config)
 
 {- JSON -}
 
-$(deriveFromJSON deriveOptions ''Region)
+-- $(deriveFromJSON deriveOptions ''Region)
 $(deriveFromJSON deriveOptions ''Account)
 $(deriveFromJSON deriveOptions ''Config)
